@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Acesso exclusivo",
+    "description": "Acesso imediato ao livro completo.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Feito por e para você",
+    "description": "Com temas sugeridos por você durante a produção.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Conteúdo atualizado",
+    "description": "Uma vez comprado, qualquer atualização que o livro tenha você terá acesso.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

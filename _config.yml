@@ -1,0 +1,51 @@
+baseurl: '/book'
+permalink: pretty
+title: 'Book - Application Security, Explained'
+
+logo:
+  mobile: ""
+  mobile_height: "32px"
+  mobile_width: "32px"
+  desktop: ""
+  desktop_height: "32px"
+  desktop_width: "120px"
+
+home: 
+  limit_capitulos: 6
+
+collections:
+  capitulos:
+    output: true
+    sort_by: weight
+  team:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "autor"
+    values:
+      layout: "team"
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-environment-variables
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md
